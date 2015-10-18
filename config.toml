@@ -1,4 +1,4 @@
-baseurl = "http://tagitbitch.com/"
+baseurl = "http://tagitbitch.com"
 languageCode = "en-us"
 title = "My Site"
 theme = "hugo-uno"
