@@ -1,0 +1,16 @@
+language: go
+go:
+  - 1.5.1
+os:
+  - linux
+before_script:
+  - git clone git://github.com/mseshachalam/mseshachalam.github.io-hugo.git mseshachalam.github.io-hugo
+  - mkdir mseshachalam.github.io
+  - ln -s `pwd`/mseshachalam.github.io `pwd`/mseshachalam.github.io-hugo
+  - git clone git://github.com/mseshachalam/mseshachalam.github.io.git mseshachalam.github.io
+  - git clone --recursive https://github.com/spf13/hugoThemes mseshachalam.github.io-hugo/themes
+script:
+  - hugo -t hyde
+install:
+  - go get github.com/spf13/hugo
+  - go get -v -u ./...
