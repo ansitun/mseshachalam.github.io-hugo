@@ -5,7 +5,9 @@ os:
   - linux
 before_script:
   - git clone git://github.com/mseshachalam/mseshachalam.github.io-hugo.git mseshachalam.github.io-hugo
+  - rm mseshachalam.github.io-hugo/public
   - git clone git://github.com/mseshachalam/mseshachalam.github.io.git mseshachalam.github.io
+  - ln -s `pwd`/mseshachalam.github.io-hugo/public `pwd`/mseshachalam.github.io
   - git clone git://github.com/spf13/hyde mseshachalam.github.io-hugo/themes/hyde.git
 script:
   - hugo -t hyde
