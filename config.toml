@@ -1,4 +1,9 @@
-baseurl = "http://tagitbitch.com"
+baseurl = "https://tagitbitch.com"
 languageCode = "en-us"
-title = "My Site"
-theme = "hugo-uno"
+title = "Tag it b!"
+theme = "hyde"
+
+[params]
+  	themeColor = "theme-base-0b"
+  	description = "My personal blog."
+  	disqusShortname = "tagitbitch"
