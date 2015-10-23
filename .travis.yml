@@ -6,8 +6,8 @@ os:
 before_script:
   - git clone git://github.com/mseshachalam/mseshachalam.github.io-hugo.git mseshachalam.github.io-hugo
   - git clone git://github.com/mseshachalam/mseshachalam.github.io.git mseshachalam.github.io
-  - git clone --recursive https://github.com/spf13/hyde mseshachalam.github.io-hugo/themes/hyde
+  - git clone https://github.com/spf13/hyde mseshachalam.github.io-hugo/themes/hyde
 script:
   - hugo -t hyde
 install:
-  - go get github.com/spf13/hugo
+  - go get -v -u github.com/spf13/hugo
