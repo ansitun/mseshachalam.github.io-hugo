@@ -7,7 +7,6 @@ before_script:
   - git clone git://github.com/mseshachalam/mseshachalam.github.io-hugo.git mseshachalam.github.io-hugo
   - mkdir mseshachalam.github.io
   - git clone git://github.com/mseshachalam/mseshachalam.github.io.git mseshachalam.github.io
-  - git clone --recursive https://github.com/spf13/hugoThemes mseshachalam.github.io-hugo/themes
 script:
   - hugo -t hyde
 install:
