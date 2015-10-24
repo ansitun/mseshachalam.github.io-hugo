@@ -1,4 +1,4 @@
-baseurl = "https://tagitbitch.com"
+baseurl = "https://tagitbitch.com/"
 languageCode = "en-us"
 title = "Tag it b!"
 theme = "hyde"
