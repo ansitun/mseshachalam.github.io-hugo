@@ -7,5 +7,4 @@ title = "about"
 
 ## A New - about me
 
-*published from prose.io
-
+*What's up ?
