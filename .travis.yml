@@ -11,6 +11,7 @@ before_script:
 script:
   - hugo -t hyde
 after_success:
+  - rm `pwd`/mseshachalam.github.io/public
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rev=$(git rev-parse --short HEAD)
   - cd mseshachalam.github.io
   - git config user.email "seshachalam@outlook.com"
