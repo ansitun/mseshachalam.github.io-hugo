@@ -5,10 +5,8 @@ os:
   - linux
 before_script:
   - git clone git://github.com/mseshachalam/mseshachalam.github.io-hugo.git mseshachalam.github.io-hugo
-  - rm mseshachalam.github.io-hugo/public
   - git clone git://github.com/mseshachalam/mseshachalam.github.io.git mseshachalam.github.io
-  - git clone git://github.com/spf13/hyde mseshachalam.github.io-hugo/themes/hyde.git
-  - ls mseshachalam.github.io-hugo
+  - git clone git://github.com/spf13/hyde.git mseshachalam.github.io-hugo/themes/hyde
 script:
   - hugo -t hyde
 install:
