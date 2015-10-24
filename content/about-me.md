@@ -10,4 +10,4 @@ title = "About me"
 
 ## A New Post
 
-*This is published from prose.io, built by hugo, deployed by travis and served by github.
+_This is published from prose.io, built by hugo, deployed by travis and served by github._
