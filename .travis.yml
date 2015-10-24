@@ -10,5 +10,16 @@ before_script:
   - ln -s `pwd`/mseshachalam.github.io-hugo/public `pwd`/mseshachalam.github.io
 script:
   - hugo -t hyde
+after_success:
+  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rev=$(git rev-parse --short HEAD)
+  - cd ../mseshachalam.github.io
+  - git remote rm origin
+  - git remote add origin "https://$GH_TOKEN@github.com/mseshachalam/mseshachalam.github.io.git"
+  - git add --all
+  - git commit -m "rebuild pages at ${rev}"
+  - git push origin master
 install:
   - go get -v -u github.com/spf13/hugo
+env:
+  global:
+    secure: nLrW2dHcLaRp5We9/rYerlUoriDqVqNhMOSyrWoB2uPi/oKr/BjM7FXvESEOBwpAjMtbIywi8IaMbaGYQDUqDDVL7pGyqf8h2RBlcpPD9x4Y/69NMnBGDQHUukEjbqRhZSnunVk5XUTKUWLvLfTd8G9vShb6KXx8T+Sym7YJTb9S+orVzjSJQIArAfrhX6jsP8ZzV1BC70P/6EjUgsnX7m8ldmR7rOHOW2DsP40lvxE4I5PEPwzD+iv5fRbiamKc0C4ExKGVQoaAIMzfUwOp/lLwHpt1qUbVi7SuVPGqiP2iAcxaVL3Vr9oUwNRxzW5p01decbLwZv87co/Kl8SkRMQPMqnbr4mzMWXiLd7pMfTZeFyQNL/oX3BiducAoBeCW9iI6G1BDzlLj7NmlsSv64QtKoy5kgv1GmM70Ogl6Ugvf+i6OlwXMBd+7SME580HwlM/Xat/AUjStmkV9UL172J7aXMEuux6+qbX43MyTOFuQ30mtSn5rJ4xRXeuoSS9xqwnNphOfMiXIRYcp4V7QQd44/BDeV8cN0Szt7JegH3OenhBCNKTFeqlO1FH6rUDNE/AjO793h1sqDOWhN4QDJ/O10xrHeLmSZmBizNCBd2Hyy0NUHQMdQGpOm8z5N5cBuofHWMwby4DCCQUa7nCC2B58GBJhojsr7sGdXm4qEg=
