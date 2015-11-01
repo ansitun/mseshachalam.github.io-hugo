@@ -28,7 +28,7 @@ title = "Resume"
 
 * Can learn anything faster.
 
-* Knows tools like redis, gearman, rabbitmq
+* Knows tools like Redis, Gearman, RabbitMQ.
 
 -------
 
