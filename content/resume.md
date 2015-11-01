@@ -47,17 +47,17 @@ title = "Resume"
 ### Experience {#experience}
 
 Mindfire Solutions, Bangalore
-: *Software Engineer*,
+: *Software Engineer*
   __September 2013-PRESENT__
   Working as a web developer.
 
 Wipro Technologies, Bangalore
-: *Project Engineer*,
+: *Project Engineer*
   __Jun 2012-Aug 2013__
   Trained as C developer and worked as a iOS developer.
   
 Symantec Corp, Chennai
-: *Intern*,
+: *Intern*
   __Jan 2012-Jun 2012__
   Worked on i18n testing and was part of UI automation dev team.
 
@@ -65,16 +65,19 @@ Symantec Corp, Chennai
 
 ### Education {#education}
 
-College of Engineering, Guindy - *M.Sc*
-: __2007-2012__
+College of Engineering, Guindy
+: *M.Sc*
+  __2007-2012__
   Has studied Mathematics and Computer Science and completed degree with 7.6 CGPA.
 
-A.P Residential Junior College, Nagarjuna Sagar - *Intermediate*
-: __2005-2007__
+A.P Residential Junior College, Nagarjuna Sagar
+: *Intermediate*
+  __2005-2007__
   Has studied Mathematics, Physics, Chemistry and completed with 95.8%.
   
-A.P Residential School, Puligadda - *10th*
-: __1999-2005__
+A.P Residential School, Puligadda
+: *10th*
+  __1999-2005__
   Completed with 93.2%.
 
 ------
