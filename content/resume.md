@@ -1,69 +1,84 @@
 +++
-date = "2015-10-24T16:17:47+00:00"
-draft = true
+date = "2015-11-01T11:47:28+00:00"
 title = "Resume"
 
 +++
-## Write a markdown cv
 
-# Craig Davis
-## Senior PHP Developer, UX Director
+# Seshachalam Malisetti
+## Developer
 
 > [Download PDF](resume.pdf)  
-> [craig@there4development.com](craig@there4development.com)  
-> (999) 888-7777
-
-------
-
-### Profile {#profile}
-
-Progressively evolve cross-platform ideas before impactful infomediaries. Energistically visualize tactical initiatives before cross-media catalysts for change.
+> [abbiya@gmail.com](abbiya@gmail.com)  
+> (889) 275-4600
 
 ------
 
 ### Skills {#skills}
 
-* Web Design
-  : Assertively exploit wireless initiatives rather than synergistic core competencies.
+* Good knowledge on REST APIs.
 
-* Interface Design
-  : Credibly streamline mission-critical value with multifunctional functionalities.
+* Knows PHP and works well with Symfony2 and MySql.
 
-* Project Direction
-  : Proven ability to lead and manage a wide variety of design and development projects in team and independent situations.
+* Can develop Android application called Broadr.
+
+* Can learn anything faster.
+
+* Knows tools like redis, gearman, rabbitmq
 
 -------
 
 ### Technical {#technical}
 
-1. XHTML
-1. CSS
-1. Javascript
-1. Jquery
-1. PHP
-1. CVS / Subversion
-1. OS X
-1. Windows XP/Vista
-1. Linux
+1. C
+2. PHP
+3. Javascript
+4. Golang
+5. SQL
+6. Git
+7. Linux
 
 ------
 
 ### Experience {#experience}
 
-Initrode Conglomerated
-: *Principal and Creative Lead*
-  __2004-2005__
-  Intrinsicly transform flexible manufactured products without excellent intellectual capital. Energistically evisculate orthogonal architectures through covalent action items. Assertively incentivize sticky platforms without synergistic materials.
+Mindfire Solutions, Bangalore
+: *Software Engineer*
+  __September 2013-PRESENT__
+  Working as a web developer.
 
-Gizmonic Institute Company (GIM)
-: *Lead Web Designer*
-  __2001-2004__
-  Globally re-engineer cross-media schemas through viral methods of empowerment. Proactively grow long-term high-impact human capital and highly efficient innovation. Intrinsicly iterate excellent e-tailers with timely e-markets.
+Wipro Technologies, Bangalore
+: *Project Engineer*
+  __Jun 2012-Aug 2013__
+  Trained as C developer and worked as a iOS developer.
+  
+Symantec Corp, Chennai
+: *Intern*
+  __Jan 2012-Jun 2012__
+  Worked on i18n testing and was part of UI automation dev team.
+
+------
+
+### Education {#education}
+
+College of Engineering, Guindy
+: *M.Sc*
+  __2007-2012__
+  Has studied Mathematics and Computer Science and completed degree with 7.6 CGPA.
+
+A.P Residential Junior College, Nagarjuna Sagar
+: *Intermediate*
+  __2005-2007__
+  Has studied Mathematics, Physics, Chemistry and completed with 95.8%.
+  
+A.P Residential School, Puligadda
+: *10th*
+  __1999-2005__
+  Completed with 93.2%.
 
 ------
 
 ### Footer {#footer}
 
-Craig Davis -- [craig@there4development.com](craig@there4development.com) -- (999) 888-7777
+Seshachalam Malisetti -- [abbiya@gmail.com](abbiya@gmail.com) -- (889) 275-4600
 
 ------
