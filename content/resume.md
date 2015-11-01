@@ -24,7 +24,7 @@ title = "Resume"
 
 * Knows PHP and works well with Symfony2 and MySql.
 
-* Can develop Android application called Broadr.
+* Developed an android application called Broadr.
 
 * Can learn anything faster.
 
