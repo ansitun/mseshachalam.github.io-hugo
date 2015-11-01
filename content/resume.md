@@ -9,7 +9,7 @@ title = "Resume"
 +++
 
 # Seshachalam Malisetti
-[Seshachalam Malisetti](http://i.imgur.com/w5DFcCr.jpg)
+![Seshachalam's Selfie](http://i.imgur.com/w5DFcCr.jpg)
 ## Developer
 
 > [View Resume](https://docs.google.com/document/d/1gYP1TJKJ09wxehulrmUQKWI-k_Xp13RGBMQJRxDsMrk/edit?usp=sharing "Seshu's Resume")  
