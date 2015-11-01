@@ -7,7 +7,7 @@ title = "Resume"
 # Seshachalam Malisetti
 ## Developer
 
-> [Download PDF](resume.pdf)  
+> [View Resume](https://docs.google.com/document/d/1gYP1TJKJ09wxehulrmUQKWI-k_Xp13RGBMQJRxDsMrk/edit?usp=sharing "Seshu's Resume")  
 > [abbiya@gmail.com](abbiya@gmail.com)  
 > (889) 275-4600
 
