@@ -76,9 +76,3 @@ A.P Residential School, Puligadda
   Completed with 93.2%.
 
 ------
-
-### Footer {#footer}
-
-Seshachalam Malisetti -- [abbiya@gmail.com](abbiya@gmail.com) -- (889) 275-4600
-
-------
