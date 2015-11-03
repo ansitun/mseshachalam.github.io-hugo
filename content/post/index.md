@@ -1,9 +1,9 @@
 +++
-Categories = ["Development", "GoLang"]
+Categories = ["Posts"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Site name", "tagitbitch"]
 date = "2015-10-17T12:57:09+05:30"
-menu = "main"
+menu = "posts"
 title = "Hello"
 
 +++
