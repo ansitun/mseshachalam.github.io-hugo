@@ -3,7 +3,6 @@ Categories = ["Development", "git", "Personal"]
 Description = "Some useful git commands for daily usage"
 Tags = ["Development", "git"]
 date = "2015-12-18T05:20:32+00:00"
-menu = "main"
 title = "Some useful git commands for daily usage"
 
 +++
