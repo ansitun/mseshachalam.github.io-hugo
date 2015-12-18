@@ -2,7 +2,7 @@
 +++
 categories = ["development", "git", "personal"]
 description = "Some useful git commands for daily usage"
-tags = ["Development", "git"]
+tags = ["development", "git"]
 date = "2015-12-18T05:20:32+00:00"
 title = "How I made Broadr and Why"
 slug = "broadr-is-dead"
