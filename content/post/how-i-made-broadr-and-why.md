@@ -5,8 +5,7 @@ description = "Some useful git commands for daily usage"
 tags = ["Development", "git"]
 date = "2015-12-18T05:20:32+00:00"
 title = "Some useful git commands for daily usage"
-slug = "broadr-has-died"
-draft = false
+slug = "broadr-is-dead"
 markup = "md"
 +++
 
@@ -58,5 +57,3 @@ All the background processes that are running on the server are controlled by th
 2. Accidents/Traffic/Calamities can be spread.
 3. Coupons/Offers from restaurants/malls/shops can be advertised.
 4. Many more.
-
-
