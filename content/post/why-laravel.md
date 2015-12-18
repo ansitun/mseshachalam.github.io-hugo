@@ -1,7 +1,7 @@
 +++
-Categories = ["Development", "PHP", "Personal"]
-Description = "A short list of Laravel features"
-Tags = ["Development", "PHP", "Laravel", "seshachalam", "malisetti"]
+categories = ["development", "PHP", "personal"]
+description = "A short list of Laravel features"
+tags = ["development", "PHP", "Laravel", "seshachalam", "malisetti"]
 date = "2015-12-18T15:49:00+00:00"
 title = "Why Laravel ?"
 
