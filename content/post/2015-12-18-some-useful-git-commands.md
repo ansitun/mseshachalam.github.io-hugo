@@ -21,3 +21,8 @@ title = "Some useful git commands for daily usage"
 	* git checkout --theirs
 	* git checkout --ours
 	* git merge --no-ff <branchName>
+- Find the branches that are merged into or not merged into a branch
+	* git branch --merged <branchName>
+    * git branch --no-merged <branchName>
+- Find the files that are changed in branch after a commit
+	* git diff --name-only <commitHash>
