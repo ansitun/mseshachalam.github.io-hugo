@@ -26,6 +26,7 @@ _Many of these are taken from the laravel documentation._
 - Has MVC kind of architecture
 - Has a HTML template engine called Blade which allows reusing the views
 - Localization support
+- Comes with a sharp command line knife `artisan`
 - Can validate forms
 - Can store sessions on different places (memcache, redis, files etc..)
 - Cron jobs becomes easy and will be in source control
