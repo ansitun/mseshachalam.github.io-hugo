@@ -7,7 +7,7 @@ title = "Some useful git commands for daily usage"
 
 +++
 
-## Some useful git commands
+## git commands that I use mostly
 
 - Create and delete branches
 	* git checkout -b `branchName`
@@ -23,5 +23,5 @@ title = "Some useful git commands for daily usage"
 - Find the branches that are merged into or not merged into a branch
 	* git branch --merged `branchName`
     * git branch --no-merged `branchName`
-- Find the files that are changed in branch after a commit
+- Find the files that are changed in a branch after a commit
 	* git diff --name-only `commitHash`
