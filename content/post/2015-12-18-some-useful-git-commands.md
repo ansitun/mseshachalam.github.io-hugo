@@ -8,6 +8,16 @@ title = "Some useful git commands for daily usage"
 
 +++
 
-## A New Post
+## Some useful git commands
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+- Create and delete branches
+	* git checkout -b <branchName>
+	* git branch -d <branchName>
+	* git push origin --delete <branchName>
+- See the differences between the branches
+	* git checkout <branchName>
+	* git cherry <branchName>
+- Merge and solve conflicts
+	* git checkout --theirs
+	* git checkout --ours
+	* git merge --no-ff <branchName>
