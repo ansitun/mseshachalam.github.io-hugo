@@ -5,6 +5,7 @@ tags = ["seshachalam malisetti", "seshachalam", "seshachalam's resume" ,"resume"
 date = "2015-11-01T11:47:28+00:00"
 menu = "main"
 title = "Resume"
+slug = "about-me"
 
 +++
 
