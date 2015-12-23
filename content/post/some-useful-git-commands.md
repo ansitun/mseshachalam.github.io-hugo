@@ -35,3 +35,5 @@ title = "Some useful git commands for daily usage"
 - Find the files that are changed in a branch after a commit
 	* git diff --name-only `commitHash`
     	- _Lists out the files that are changed after a `commitHash`_
+- Apply a dropped stash
+	* [Apply dropped stash](http://stackoverflow.com/questions/89332/how-to-recover-a-dropped-stash-in-git)
