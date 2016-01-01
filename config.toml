@@ -1,7 +1,7 @@
 baseurl = "https://tagitbitch.com/"
 languageCode = "en-us"
 title = "Tag it b!"
-theme = "hyde"
+theme = "hyde-x"
 
 [params]
   	themeColor = "theme-base-0b"
