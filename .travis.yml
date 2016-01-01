@@ -7,11 +7,11 @@ os:
 before_script:
   - git clone git://github.com/mseshachalam/mseshachalam.github.io-hugo.git mseshachalam.github.io-hugo
   - git clone git://github.com/mseshachalam/mseshachalam.github.io.git mseshachalam.github.io
-  - git clone git://github.com/spf13/hyde.git mseshachalam.github.io-hugo/themes/hyde
+  - git clone git@github.com:zyro/hyde-x.git mseshachalam.github.io-hugo/themes/hyde-x
   - ln -s `pwd`/mseshachalam.github.io `pwd`/mseshachalam.github.io-hugo/public
 script:
   - cd mseshachalam.github.io-hugo
-  - hugo -t hyde
+  - hugo -t hyde-x
   - cd ..
 after_success:
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rev=$(git rev-parse --short HEAD)
