@@ -3,7 +3,7 @@ categories = ["posts", "films", "quotes"]
 description = "You have been warned"
 tags = ["films", "quotes", "fightclub", "tagitbitch"]
 date = "2016-01-11T11:51:01+00:00"
-menu = "posts"
+menu = "main"
 title = "You have been warned- Tyler."
 
 +++
