@@ -10,7 +10,7 @@ MetaDataFormat = "toml"
     name = "Seshachalam Malisetti"
 
 [params]
-	gravatar = "http://www.gravatar.com/avatar/7595323a572a213bde3f6e68fbe3564d"
+	# gravatar = "http://www.gravatar.com/avatar/7595323a572a213bde3f6e68fbe3564d"
   	themeColor = "theme-base-0b"
   	description = "My personal blog."
   	googleAnalytics = "UA-58634272-3"
