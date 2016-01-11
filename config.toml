@@ -2,9 +2,26 @@ baseurl = "https://tagitbitch.com/"
 languageCode = "en-us"
 title = "Tag it b!"
 theme = "hyde-x"
+disqusShortname = "tagitbitch"
+paginate = 10
+MetaDataFormat = "toml"
+
+[author]
+    name = "Seshachalam Malisetti"
 
 [params]
   	themeColor = "theme-base-0b"
   	description = "My personal blog."
-  	disqusShortname = "tagitbitch"
   	googleAnalytics = "UA-58634272-3"
+    defaultDescription = "One more post"
+    defaultKeywords = "seshachalam, malisetti, tagitbitch"
+    theme = "theme-base-08"
+    tagline = "Warning: If you are reading this then this warning is for you. Every word you read of this useless fine print is another second off your life. Don't you have other things to do? Is your life so empty that you honestly can't think of a better way to spend these moments? Or are you so impressed with authority that you give respect and credence to all that claim it? Do you read everything you're supposed to read? Do you think every thing you're supposed to think? Buy what you're told to want? Get out of your apartment. Meet a member of the opposite sex. Stop the excessive shopping and masturbation. Quit your job. Start a fight. Prove you're alive. If you don't claim your humanity you will become a statistic. You have been warned- Tyler."
+    github = "https://github.com/mseshachalam/"
+    bitbucket = "https://bitbucket.org/abbiya/"
+    stackOverflow = "http://stackoverflow.com/users/1936957/guy-fawkes"
+    linkedin = "https://in.linkedin.com/in/mseshachalam"
+    googleplus = "https://plus.google.com/u/0/+SeshachalamMalisetti"
+    twitter = "https://twitter.com/seshnsesh"
+    youtube = "https://www.youtube.com/user/abbiyaa"
+    rss = true
