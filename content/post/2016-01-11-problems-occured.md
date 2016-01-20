@@ -14,6 +14,8 @@ title = "List of problems occured"
 
 The above is solved with
 
+*** It wont solve this ISSUE***
+
 When using SELECT ... FOR UPDATE statements, you may observe lock contention(dead locks etc..).
 select … for update where x <= y
 its that range scan with <=
@@ -40,4 +42,4 @@ If you have lot of gaps locks in your transactions affecting the concurrency and
 
 2- innodb_locks_unsafe_for_binlog = 1. Disables the gap locks except for foreign-key constraint checking or duplicate-key checking.
 
-https://www.percona.com/blog/2012/03/27/innodbs-gap-locks/ 
+https://www.percona.com/blog/2012/03/27/innodbs-gap-locks/
