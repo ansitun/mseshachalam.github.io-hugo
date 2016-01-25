@@ -1,6 +1,6 @@
 +++
 categories = ["posts"]
-description = "index page"
+description = "Laravel Queues with Amazon SQS"
 tags = ["tagitbitch", "laravel", "amazon sqs", "queues", "background processing"]
 date = "2016-01-25T02:48:40+00:00"
 menu = "posts"
