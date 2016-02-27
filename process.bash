@@ -2,7 +2,7 @@
 
 pb_config='pb_config'
 
-changed_files=$(git diff-tree --no-commit-id --name-only -r bb49a42)
+changed_files=$(git diff-tree --no-commit-id --name-only -r $rev)
 
 while IFS=' ' read -ra ADDR; do
   	for str in "${ADDR[@]}"; do
