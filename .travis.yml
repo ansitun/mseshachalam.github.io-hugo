@@ -29,11 +29,11 @@ after_success:
 - curl https://www.bing.com/ping?sitemap=https://tagitbitch.com/sitemap.xml
 - chmod a+x process.bash
 - source ./process.bash
-- : "${PB_BODY:?curl --header 'Access-Token: $PB_TOKEN' \
+- [ -z "$PB_BODY" ] && curl --header 'Access-Token: $PB_TOKEN' \
        --header 'Content-Type: application/json' \
        --data-binary $PB_BODY \
        --request POST \
-       https://api.pushbullet.com/v2/pushes}"
+       https://api.pushbullet.com/v2/pushes && exit 1;
 install:
 - go get -v -u github.com/spf13/hugo
 env:
