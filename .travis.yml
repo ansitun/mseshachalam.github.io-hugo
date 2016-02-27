@@ -16,6 +16,7 @@ script:
 after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rev=$(git
   rev-parse --short HEAD)
+- export rev
 - cd mseshachalam.github.io
 - git config user.email "seshachalam@outlook.com"
 - git config user.name "Seshachalam Malisetti"
@@ -28,9 +29,8 @@ after_success:
 - curl https://google.com/webmasters/sitemaps/ping?sitemap=https://tagitbitch.com/sitemap.xml
 - curl https://www.bing.com/ping?sitemap=https://tagitbitch.com/sitemap.xml
 - cd ../mseshachalam.github.io-hugo
-- export rev
 - chmod a+x process.bash post.bash
-- ./process.bash
+- source ./process.bash
 - ./post.bash
 install:
 - go get -v -u github.com/spf13/hugo
