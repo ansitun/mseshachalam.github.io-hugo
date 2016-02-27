@@ -29,7 +29,7 @@ after_success:
 - curl https://www.bing.com/ping?sitemap=https://tagitbitch.com/sitemap.xml
 - chmod a+x process.bash post.bash
 - source ./process.bash
-- [ -z "$PB_BODY" ] && (./post.bash);
+- ./post.bash
 install:
 - go get -v -u github.com/spf13/hugo
 env:
