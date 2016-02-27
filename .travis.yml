@@ -27,6 +27,7 @@ after_success:
 - git push origin master
 - curl https://google.com/webmasters/sitemaps/ping?sitemap=https://tagitbitch.com/sitemap.xml
 - curl https://www.bing.com/ping?sitemap=https://tagitbitch.com/sitemap.xml
+- cd ../mseshachalam.github.io-hugo
 - chmod a+x process.bash post.bash
 - source ./process.bash
 - ./post.bash
