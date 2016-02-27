@@ -30,7 +30,7 @@ after_success:
 - cd ../mseshachalam.github.io-hugo
 - export rev
 - chmod a+x process.bash post.bash
-- source ./process.bash
+- ./process.bash
 - ./post.bash
 install:
 - go get -v -u github.com/spf13/hugo
