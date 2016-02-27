@@ -27,13 +27,9 @@ after_success:
 - git push origin master
 - curl https://google.com/webmasters/sitemaps/ping?sitemap=https://tagitbitch.com/sitemap.xml
 - curl https://www.bing.com/ping?sitemap=https://tagitbitch.com/sitemap.xml
-- chmod a+x process.bash
+- chmod a+x process.bash post.bash
 - source ./process.bash
-- [ -z "$PB_BODY" ] && (curl --header 'Access-Token: $PB_TOKEN' \
-       --header 'Content-Type: application/json' \
-       --data-binary $PB_BODY \
-       --request POST \
-       https://api.pushbullet.com/v2/pushes);
+- [ -z "$PB_BODY" ] && (./post.bash);
 install:
 - go get -v -u github.com/spf13/hugo
 env:
