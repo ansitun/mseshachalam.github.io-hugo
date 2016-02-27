@@ -1,33 +1,35 @@
 sudo: false
 language: go
 go:
-  - 1.5.1
+- 1.5.1
 os:
-  - linux
+- linux
 before_script:
-  - git clone git://github.com/mseshachalam/mseshachalam.github.io-hugo.git mseshachalam.github.io-hugo
-  - git clone git://github.com/mseshachalam/mseshachalam.github.io.git mseshachalam.github.io
-  - git clone git://github.com/mseshachalam/hyde-x.git mseshachalam.github.io-hugo/themes/hyde-x
-  - ln -s `pwd`/mseshachalam.github.io `pwd`/mseshachalam.github.io-hugo/public
+- git clone git://github.com/mseshachalam/mseshachalam.github.io-hugo.git mseshachalam.github.io-hugo
+- git clone git://github.com/mseshachalam/mseshachalam.github.io.git mseshachalam.github.io
+- git clone git://github.com/mseshachalam/hyde-x.git mseshachalam.github.io-hugo/themes/hyde-x
+- ln -s `pwd`/mseshachalam.github.io `pwd`/mseshachalam.github.io-hugo/public
 script:
-  - cd mseshachalam.github.io-hugo
-  - hugo -t hyde-x
-  - cd ..
+- cd mseshachalam.github.io-hugo
+- hugo -t hyde-x
+- cd ..
 after_success:
-  - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rev=$(git rev-parse --short HEAD)
-  - cd mseshachalam.github.io
-  - git config user.email "seshachalam@outlook.com"
-  - git config user.name "Seshachalam Malisetti"
-  - git pull origin master
-  - git remote rm origin
-  - git remote add origin "https://$GH_TOKEN@github.com/mseshachalam/mseshachalam.github.io.git"
-  - git add --all
-  - git commit -m "rebuild pages at ${rev}"
-  - git push origin master
-  - curl https://google.com/webmasters/sitemaps/ping?sitemap=https://tagitbitch.com/sitemap.xml
-  - curl https://www.bing.com/ping?sitemap=https://tagitbitch.com/sitemap.xml
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && rev=$(git
+  rev-parse --short HEAD)
+- cd mseshachalam.github.io
+- git config user.email "seshachalam@outlook.com"
+- git config user.name "Seshachalam Malisetti"
+- git pull origin master
+- git remote rm origin
+- git remote add origin "https://$GH_TOKEN@github.com/mseshachalam/mseshachalam.github.io.git"
+- git add --all
+- git commit -m "rebuild pages at ${rev}"
+- git push origin master
+- curl https://google.com/webmasters/sitemaps/ping?sitemap=https://tagitbitch.com/sitemap.xml
+- curl https://www.bing.com/ping?sitemap=https://tagitbitch.com/sitemap.xml
 install:
-  - go get -v -u github.com/spf13/hugo
+- go get -v -u github.com/spf13/hugo
 env:
   global:
-    secure: nLrW2dHcLaRp5We9/rYerlUoriDqVqNhMOSyrWoB2uPi/oKr/BjM7FXvESEOBwpAjMtbIywi8IaMbaGYQDUqDDVL7pGyqf8h2RBlcpPD9x4Y/69NMnBGDQHUukEjbqRhZSnunVk5XUTKUWLvLfTd8G9vShb6KXx8T+Sym7YJTb9S+orVzjSJQIArAfrhX6jsP8ZzV1BC70P/6EjUgsnX7m8ldmR7rOHOW2DsP40lvxE4I5PEPwzD+iv5fRbiamKc0C4ExKGVQoaAIMzfUwOp/lLwHpt1qUbVi7SuVPGqiP2iAcxaVL3Vr9oUwNRxzW5p01decbLwZv87co/Kl8SkRMQPMqnbr4mzMWXiLd7pMfTZeFyQNL/oX3BiducAoBeCW9iI6G1BDzlLj7NmlsSv64QtKoy5kgv1GmM70Ogl6Ugvf+i6OlwXMBd+7SME580HwlM/Xat/AUjStmkV9UL172J7aXMEuux6+qbX43MyTOFuQ30mtSn5rJ4xRXeuoSS9xqwnNphOfMiXIRYcp4V7QQd44/BDeV8cN0Szt7JegH3OenhBCNKTFeqlO1FH6rUDNE/AjO793h1sqDOWhN4QDJ/O10xrHeLmSZmBizNCBd2Hyy0NUHQMdQGpOm8z5N5cBuofHWMwby4DCCQUa7nCC2B58GBJhojsr7sGdXm4qEg=
+  - secure: nLrW2dHcLaRp5We9/rYerlUoriDqVqNhMOSyrWoB2uPi/oKr/BjM7FXvESEOBwpAjMtbIywi8IaMbaGYQDUqDDVL7pGyqf8h2RBlcpPD9x4Y/69NMnBGDQHUukEjbqRhZSnunVk5XUTKUWLvLfTd8G9vShb6KXx8T+Sym7YJTb9S+orVzjSJQIArAfrhX6jsP8ZzV1BC70P/6EjUgsnX7m8ldmR7rOHOW2DsP40lvxE4I5PEPwzD+iv5fRbiamKc0C4ExKGVQoaAIMzfUwOp/lLwHpt1qUbVi7SuVPGqiP2iAcxaVL3Vr9oUwNRxzW5p01decbLwZv87co/Kl8SkRMQPMqnbr4mzMWXiLd7pMfTZeFyQNL/oX3BiducAoBeCW9iI6G1BDzlLj7NmlsSv64QtKoy5kgv1GmM70Ogl6Ugvf+i6OlwXMBd+7SME580HwlM/Xat/AUjStmkV9UL172J7aXMEuux6+qbX43MyTOFuQ30mtSn5rJ4xRXeuoSS9xqwnNphOfMiXIRYcp4V7QQd44/BDeV8cN0Szt7JegH3OenhBCNKTFeqlO1FH6rUDNE/AjO793h1sqDOWhN4QDJ/O10xrHeLmSZmBizNCBd2Hyy0NUHQMdQGpOm8z5N5cBuofHWMwby4DCCQUa7nCC2B58GBJhojsr7sGdXm4qEg=
+  - secure: WTVzXzH9rnibBSMsd+IUinLIKLUnptzYzNi/haLVGTs8lCdIFw4Nur3ij51XAxSFTCVz7/Wnn6ZE8lo/RiX9BQaZTBz+4AJXKIhzh8znHPv6g2U39SNkIB8ndXT7y4aKkygcEc/PsLIXXMNqsfG7jlKe4/RptLo9jAvezJc4Br5yO8vBiShpOYIFzBsAUZV6FB/oD8GOjdJSHbfqKrVBKXyj9x2WWsbUQLmNHKvp63EqKvPq+UkKkOjbyyQznZlz/lGzr5M9rUKUnGl9BgXWf0uwaFhFysd+R/1fJZPutvO/vDL73rmB4dU9NcGT5Xc1ysb+W0RwLpfzY3glnbcPXL12AbmGUEuJGE66VXoqB0upG2p3xuihvgIl0RerdoXR9XPBJprv3dfgEl6QUGXTRNwi1TaEU0NjLAcV4iIlmhPHfMW3ziZq65RzlHICCRggPxkmeAHc5WUWh/MIQTZZKBhmmhETxNkWIRTttn6SGOI77RaemwehyMOBl+2pDtpVpr7SSc6QFntyLRbkLQHv2TeZSqLhpEdxuWruVnrDletnf/QVGE3yylI07iPM5LWW24pM9uvpMKJYcxUiIwXNUGsYV4U/yCmqu+eshcLIrcpFIeX7L/l2M+rLCo+eP0Hkw0gEkVTnN5yhOMQJ83eS+JFCBSpi274EO+pDxR+WLZ4=
