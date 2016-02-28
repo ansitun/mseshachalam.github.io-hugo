@@ -58,7 +58,7 @@ I suggest you to continue your career if you are only one the below,
 4. Laravel/Symfony team member
 5. Any Chinese citizen or anyone who is not an Indian
 
-PHP is not a industry thing, no value given to its users. Lot of advanced and upcoming changes are supported in the language.
+PHP is not a industry thing, no value given to its users. Lot of advanced and upcoming changes are not supported in the language.
 
 PS
 Don't start or continue you career in PHP
