@@ -56,7 +56,7 @@ I suggest you to continue your career if you are only one the below,
 2. Stof
 3. Fabpot
 4. Laravel/Symfony team member
-5. Any Chinese citizen or anyone who is not an Indian
+5. Quentin Tarantino or anyone who is not an Indian
 
 PHP is not an industry thing, no value is given to its users. Lot of advanced and upcoming changes are not supported in the language.
 
