@@ -7,11 +7,11 @@ title = "PHP is a worst career choice, atleast in India ?"
 
 +++
 
-## Why I Think PHP Is A Worst Career Choice
+## Why I Think PHP Is the 'Worst' Career Choice
 
 There are lot of good things about PHP like,
 
-1. Its easy to lean
+1. It's easy to lean
 2. No pointers
 3. No need to compile or worry about anything except writing code
 4. Can do things easily, rapid application prototyping
@@ -24,18 +24,18 @@ And there as some loopholes too,
 2. Not moving upto pace to match the other languages
 3. Undervalued language in the industry
 4. Not used in bigger projects or companies
-5. Poor pay scales
-6. Third party tools needed to scale it up
+5. Poor Pay scales
+6. Third party tools need to scale up
 
 Why am I writing this ?
 
 I am faced with a challenge of choosing the pill. PHP or Golang?
 
-If you want to know how deep is the rabbit hole, I advice you not to choose PHP.
+If you want to know how deep is the rabbit hole, I advice, not to choose PHP.
 
 How can you grow as a PHP developer ? Can you earn equivalent salary as other technologies ?
 
-Is it enough to have mastered PHP or backend technologies alone to survive in the industry ? No, you got be full stack developer.
+Is it enough to have mastered PHP or backend technologies alone to survive in the industry ? No, you got be full stack developer!
 
 Know bootstrap or something equivalent, js (some front end framework like react or angular). You must lucky be to find a job without these requirements.
 Even if you do find a job which just requires the knowledge of PHP, what kind of project will you be working on ? A small team, correct ?
@@ -58,7 +58,7 @@ I suggest you to continue your career if you are only one the below,
 4. Laravel/Symfony team member
 5. Any Chinese citizen or anyone who is not an Indian
 
-PHP is not a industry thing, no value given to its users. Lot of advanced and upcoming changes are not supported in the language.
+PHP is not an industry thing, no value is given to its users. Lot of advanced and upcoming changes are not supported in the language.
 
 PS:
 Don't start or continue you career in PHP
