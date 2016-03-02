@@ -18,7 +18,7 @@ There are lot of good things about PHP like,
 5. Good community
 6. Lots of frameworks
 
-Some negatives,
+And there as some loopholes too,
 
 1. Performance
 2. Not moving upto pace to match the other languages
@@ -29,7 +29,7 @@ Some negatives,
 
 Why am I writing this ?
 
-I am faced with a challenge of choosing the pill. PHP or Golang
+I am faced with a challenge of choosing the pill. PHP or Golang?
 
 If you want to know how deep is the rabbit hole, I advice you not to choose PHP.
 
@@ -47,7 +47,7 @@ If you like PHP just do something by yourself dont work for a company.
 
 What kind of companies hire a PHP developer ?
 
-Medium range companies, startups (most of them are ecommerse sites) and some MNCs. Will your life become better by the years of experience ? NO, 
+Medium range companies, startups (most of them are ecommerce sites) and some MNCs. Will your life become better by the years of experience ? NO, 
 you will still do basic things in PHP, fill form, submit, store, display or do a boring API. Definitely Not much more than this.
 
 I suggest you to continue your career if you are only one the below, 
@@ -60,6 +60,6 @@ I suggest you to continue your career if you are only one the below,
 
 PHP is not a industry thing, no value given to its users. Lot of advanced and upcoming changes are not supported in the language.
 
-PS
+PS:
 Don't start or continue you career in PHP
 
